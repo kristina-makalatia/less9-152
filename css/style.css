@@ -1,0 +1,68 @@
+/* responive block */
+.block {
+    width: 250px;
+    height: 250px;
+}
+.wraper-block {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* pseudo classes */
+.block:nth-child(1) {
+    background-color: yellow;
+}
+.block:nth-child(2) {
+    background-color: aquamarine;
+}
+.block:nth-child(3) {
+    background-color: blueviolet;
+}
+.block:last-child {
+    background-color: burlywood;
+}
+/* .block:nth-child(even) {
+    background-color: blue;
+}
+.block:nth-child(odd) {
+    background-color: red;
+} */
+.block:nth-child(2) .block-title {
+    color: #fff;
+}
+.block:nth-child(4) .block-title {
+    color: red;
+}
+
+
+/* image block */
+.image-wraper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.image-block {
+    width:200px;
+}
+.image {
+    width: 100%;
+}
+
+
+
+/* მიმართვა */
+/* .image-block p {
+    color:red;
+}
+.image-block.blue {
+    background-color: blue;
+} */
+
+.container {
+    max-width:1170px;
+    width:80%;
+    height: 400px;
+    background-color:chocolate;
+    margin: 0 auto;
+}

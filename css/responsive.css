@@ -1,0 +1,112 @@
+/* breakpoints */
+/* 1024px; 768px; 480px; 320px-მდე */
+
+
+/* responsive styles */
+
+/* practice#1 - width */
+/* @media (max-width:1024px) {
+    .block {
+        width: 150px;
+    }
+    .block:nth-child(1) {
+        background-color: green;
+    }
+    .block:last-child {
+        display: none;
+    }
+}
+@media (max-width:480px) {
+    .block {
+        width: 100px;
+    }
+    .block:last-child {
+        display: block;
+    }
+} */
+
+/* practice#2 - direction */
+/* @media (max-width:1024px) {
+    .wraper-block {
+        flex-direction: column;
+        align-items: center;
+    }
+    .block {
+        margin-bottom: 30px;
+    }
+} */
+
+/* practice#3 - wrap */
+/* @media (max-width:500px) {
+    .block {
+        margin-bottom: 30px;
+    }
+    .wraper-block {
+        justify-content: center;
+    }
+} */
+
+/* practice#4 - % */
+
+
+@media (max-width:1024px) {
+    .block {
+        width: 45%;
+    }
+}
+@media (max-width:900px) {
+    /* .image-wraper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .image-block {
+        margin-bottom: 50px;
+        background-color: lightblue;
+    } */
+    .image-block {
+        width: 48%;
+        background-color: yellow;
+    }
+    .image-block:nth-child(1),
+    .image-block:nth-child(2) {
+        margin-bottom: 50px;
+    }
+}
+@media (max-width: 768px) {
+    /* .image-wraper {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .image-block:nth-child(3),
+    .image-block:nth-child(4) {
+        display: none;
+    } */
+
+}
+@media (max-width:480px) {
+    .block {
+        width: 100%;
+    }
+    /* .image-wraper {
+        flex-direction: column;
+    } */
+    .image-block {
+        width: 100%; 
+    }
+    .image-block:nth-child(3),
+    .image-block:nth-child(4) {
+        margin-bottom: 50px;
+    }
+
+}
+
+
+/* flex-wrap */
+@media (max-width:420px) {
+    /* .image-block {
+        margin-bottom: 50px;
+    }
+    .image-wraper {
+        justify-content: center;
+    } */
+}
